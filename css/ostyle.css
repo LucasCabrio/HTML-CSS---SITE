@@ -1,0 +1,527 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    font-family: 'play';
+    
+    
+}
+
+
+#wrapper{
+    min-height: 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+.container{
+    min-height: 100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.body-content{
+    padding-bottom: 35vh;
+}
+
+.frete{
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    padding: 6px 0;
+}
+
+.logo{
+    width: 15vw; 
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+
+.logo img{
+    width: 6vw;
+    height: auto;
+
+}
+.logotitulo{
+    width: 35vw;
+    height: 80px;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    /* padding-right: 12vw; */
+
+}
+
+
+.principal{
+    display: flex;
+    width: 35vw;
+
+}
+
+.boxlogo{
+    width: 65vw;
+    height: 150px;
+    padding-top: 25px;
+}
+.boxlogo img{
+    width: 25px;
+    height: 25px;
+}
+
+.entregalogo{
+    display: flex;
+    padding-left: 20px;
+    width: 60%;
+}
+
+.entregalogo img{
+    width: 20px;
+    height: 20px;
+}
+.carrinho a{
+    text-decoration: none;
+    color: black;
+}
+
+.logos{
+    width: 40%;
+    display:flex;
+    justify-content: space-around;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.um{
+    display: flex;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+}
+.dois{
+    display: flex;
+    justify-content:flex-end;
+    margin-top: 8px;
+    
+}
+.carrossel{
+    width: 80vw;
+    margin-top: 13vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.carrossel img{
+    width: 70vw;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+.mascimg{
+        width: 80vw;
+        margin-top: 13vh;
+        margin-left: 16%;
+        margin-right: auto;
+}
+    
+    
+    .mascimg img{
+        width: 70vw;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;    
+    }
+
+    .femimg{
+        width: 80vw;
+        margin-top: 13vh;
+        margin-left: 16%;
+        margin-right: auto;
+}
+    
+    
+    .femimg img{
+        width: 70vw;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;    
+    }
+
+.cadastrese{
+    width: 20%;
+    margin-top: 25px;
+    display: flex;
+}
+.textinhologo{
+    width: 7vw;
+    margin-left: 47%;
+    margin-top: 3%;
+}
+.textinho{
+    text-align: center;
+    margin-top: 4%;
+    font-size: 25px;
+    width: 50%;
+    margin-left: 25%;
+
+
+}
+.iniciarsessao{
+    width: 20%;
+    margin-top: 25px;
+    display: flex;
+    
+}
+.iniciarsessao a{
+    color: rgb(0, 0, 0);
+    border: none;
+    text-decoration: none;
+}
+.carrinho{
+    width: 20%;
+    margin-top: 25px;
+    display: flex;
+}
+.carrinho a{
+    text-decoration: none;
+}
+
+.cabecalho{
+   display: flex;
+}
+
+.finalcabecalho{
+    background-color: black;
+    font-size: 16px white;
+    padding: 9px;
+    text-align: left;
+}
+.cadastrese a{
+    color: black;
+    text-decoration: none;
+}
+
+.finalcabecalho a{
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    
+}
+
+.destaque{
+    text-align: center;
+    margin-top: 6%;
+
+
+}
+.bordinha{
+    border-color: grey;
+    border-top: 0.5px;
+    border-bottom: 0.5px;
+    border-style: solid;
+    border-left: none;
+    margin-top: 20px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+
+}
+
+.maisVendidos{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px
+}
+ 
+.maisVendidos p{
+  margin-top: 10px;
+}
+ 
+.itemsMaisVendidos {
+    width: 100vw;
+    height: 25vw;
+    display: flex;
+    justify-content: space-around;
+}
+ 
+.itemsOfertasEspeciais {
+    width: 100vw;
+    height: 25vw;
+    display: flex;
+    justify-content: space-around;
+}
+.venda {
+    display: flex;
+    padding-left: 28%;
+    padding-top: 3%;
+}
+ 
+.imgCinza {
+    width: 250px;
+    height: 320px;
+    padding-top: 40px;
+    padding-left: 34px;
+    padding-right: 20%;
+    padding-bottom: 40px;
+    background-color: #ededed;
+    border-radius: 2px;
+    margin-right: 50px;
+ 
+}
+.imgCinza p {
+    font-size: 100%;
+    margin-left: 7px;
+    font-weight: bold;
+    text-align: center;
+}
+ 
+.imgBranca img {
+    width: 180px;
+    height: 190px;
+    margin-bottom: 15px;
+}
+ 
+.preco {
+    font-size: 24px;
+}
+ 
+.valorr {
+    font-size: 190%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: justify;
+    margin-top: 2vw;
+    height: 35vh;
+    width: 100%;
+    left: 0;
+    position:relative;
+    }
+
+    footer > div {
+    height: 10vh;
+    flex-basis: 25%;
+    padding: 20px;
+
+    }
+
+
+.forma img{
+    max-width: 50px;
+    height: auto;
+}
+
+ .meios-pagamento{
+    display: flex;
+    justify-content: center;
+    width: 8vw;
+    margin-left: 40px;
+    margin-right: auto;
+}
+
+.meios-entrega{
+display: flex;
+    justify-content: center;
+    width: 10vw;
+    margin-left: 60px;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.meios-pagamento img {
+    margin: 6px;
+    width: 50%;
+}
+
+
+.contato{
+    margin-top: 13%;
+}
+
+.sobre, .forma,.duvida{
+   width:25vw ;
+   height:32vh ;
+}
+
+.meios-entrega{
+    flex-direction: column;
+    
+}
+
+button{
+    background-color: black;
+    width: 70px;
+    height: 20px;
+    font-weight: bold;
+    font-size: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: block; /* Para ocupar toda a largura da div */
+    margin: left; /* Centraliza o botão horizontalmente */
+   
+}
+
+.news button {
+    align-items: justify;
+}
+
+.news,.contato{
+    padding-left: 13%;
+}
+
+
+
+
+
+@media screen and (max-width:880px) {
+.entregalogo{
+        font-size: 8px;
+}
+.frete{
+        font-size: 11px;
+}
+.logotitulo{
+    font-size: 11px;
+}
+.um{
+    font-size:10px ;
+}
+.dois{
+    font-size: 10px;
+}
+.dois img{
+    width: 18px;
+    height: 18px;
+}
+
+.imgCinza{
+    width: 170px;
+    height: 270px;
+    padding-top: auto;
+    padding-left: auto;
+    padding-right: 70%;
+    margin-right: 25px;
+}
+.imgBranca img {
+    width: 100px;
+    height: 150px;
+    padding-right: 100%;
+    align-items: center;
+}
+
+.logos img{
+    width: 18px;
+    height: 18px;
+}
+.logotitulo{
+    width: 25vw;
+    height: 60px;
+
+}
+.preco {
+    font-size: 12px;
+}
+.imgCinza p {
+    font-size: 12px;
+    width: 100px;
+}
+
+
+.itemsMaisVendidos {
+    width: 50vw;
+    height: 15vw;
+}
+.camiseta{
+    padding-right: 43%;
+}
+
+.bordinha{
+    align-items: center;
+
+}
+
+
+footer {
+    text-align: justify;
+    margin-top: 2vw;
+    height: 35vh;
+    width: auto;
+    left: 0;
+    position:relative;
+    font-size: 11px;
+    }
+
+    footer > div {
+    height: 10vh;
+    flex-basis: 25%;
+    padding: 20px;
+    }
+
+/* Estilos para as imagens dentro da div 'forma' */
+.forma img{
+    max-width: 50px;
+    height: auto;
+}
+
+ .meios-pagamento{
+    display: flex;
+    justify-content: center;
+    width: 5vw;
+    margin-left: 40px;
+    margin-right: auto;
+}
+
+.meios-entrega{
+display: flex;
+    justify-content: center;
+    width: 5vw;
+    margin-left: 60px;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.meios-pagamento img {
+    margin: 6px;
+}
+
+.contato{
+    margin-top: 13%;
+}
+
+.sobre, .forma,.duvida{
+   width:5vw ;
+   height:32vh ;
+}
+
+.meios-entrega{
+    flex-direction: column;
+    
+}
+.contatinho{
+    width: 5vw;
+}
+
+}

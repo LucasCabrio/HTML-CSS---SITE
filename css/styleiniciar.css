@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    font-family: 'play';
+}
+
+.ses {
+    text-align: center;
+    margin-bottom: 50px; /* Adicionando margem abaixo da div para o botão ficar espaçado do texto */
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vw;
+}
+.botaoinic {
+    background-color: black;
+    width: 180px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: block; /* Para ocupar toda a largura da div */
+    margin: 0 auto; /* Centraliza o botão horizontalmente */
+    box-shadow: 2px 2px 2px rgb(83,81,81);
+    margin-bottom: 5%; /* Reduzindo o espaçamento entre o botão e o texto */
+    
+    margin-top: 2%;
+}
+
+
+.ses h2 {
+    margin-top: 5%;
+}
+
+.botao2 {
+    background-color: black;
+    width: 180px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: block; /* Para ocupar toda a largura da div */
+    margin: 0 auto; /* Centraliza o botão horizontalmente */
+    box-shadow: 2px 2px 2px rgb(83,81,81);
+    margin-top: 9%; /* Reduzindo o espaçamento entre o botão e o texto */
+}
+
+.imagem2 {
+    display: block; /* Para ocupar toda a largura da div */
+    margin: 20px auto 0; /* Posiciona a imagem mais abaixo do botão */
+    width: 5%;
+    height: 5%;
+}
+
+.borda {
+    border-color: grey;
+    border-top: 1px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    margin-top: 10px;
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+
+/* Aumentando o tamanho dos campos de email e senha */
+input[type="emaill"],
+input[type="password"] {
+    width: 100%; /* Ajuste conforme necessário */
+    height: 30px; /* Ajuste conforme necessário */
+    font-size: 16px; /* Ajuste conforme necessário */
+    margin-bottom: 20px; /* Espaçamento entre os campos */
+}
+
+/* Estilizando rótulos */
+label {
+    display: inline-block;
+    text-align: left;
+    margin-right: 100%; /* Espaçamento entre o rótulo e o campo de entrada */
+}
+
+.decoracao a{
+    text-decoration: none;
+    color: black;
+}
+
+.botaozin5 a{
+    text-decoration: none;
+    color: black;
+}

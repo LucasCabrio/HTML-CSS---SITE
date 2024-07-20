@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.masc{
+    text-align: center;
+    margin-top: 5%;
+}
+ 
+.camiseta{
+    text-align: center;
+    margin-top: 5%;
+}
+.destaque{
+    text-align: center;
+    margin-top:5% ;
+}
+
+.maisVendidos{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px
+}
+ 
+.maisVendidos p{
+  margin-top: 10px;
+}
+ 
+.itemsMaisVendidos {
+    width: 100vw;
+    height: 25vw;
+    display: flex;
+    justify-content: space-around;
+}
+ 
+.itemsOfertasEspeciais {
+    width: 100vw;
+    height: 25vw;
+    display: flex;
+    justify-content: space-around;
+}
+.venda {
+    display: flex;
+    padding-left: 20%;
+    padding-top: 3%;
+}
+ 
+.imgCinza {
+    width: 250px;
+    height: 300px;
+    padding-top: 40px;
+    padding-left: 34px;
+    padding-right: 20%;
+    padding-bottom: 40px;
+    background-color: #ededed;
+    border-radius: 10px;
+    margin-right: 50px;
+ 
+}
+.imgCinza p {
+    font-size: 100%;
+    justify-content: center;
+    font-weight: bold;
+    text-align: center;
+}
+ 
+.imgBranca img {
+    width: 180px;
+    height: 190px;
+    margin-bottom: 15px;
+}
+ 
+.preco {
+    font-size: 24;
+}
+ 
+.valorr {
+    font-size: 190%;
+}
+

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'play';
+    font-size: 16px;
+}
+
+.carrinho1 {
+    text-align: center;
+    margin-bottom: 50px; /* Adicionando margem abaixo da div para o botão ficar espaçado do texto */
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carrinho1 h2{
+    margin-top: 7%;
+
+}
+
+.botao3{
+    background-color: black;
+    width: 180px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: block; /* Para ocupar toda a largura da div */
+    margin: 0 auto; /* Centraliza o botão horizontalmente */
+    box-shadow: 2px 2px 2px rgb(83,81,81);
+    margin-top: 19%;
+}
+
+.imagem3{
+    display: block; /* Para ocupar toda a largura da div */
+    margin: 20px auto 0; /* Posiciona a imagem mais abaixo do botão */
+    width: 5%;
+    height: 5%;
+}
+
+.borda {
+    border-color: grey;
+    border-top: 1px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    margin-top: 10px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.botaozin2 a{
+text-decoration: none;
+color: black;
+}
